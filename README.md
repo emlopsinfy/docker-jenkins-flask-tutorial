@@ -1,5 +1,7 @@
 This repo uses Jenkins for CI/CD.
 
+##### This uses local system hardware
+
 YouTube : https://www.youtube.com/watch?v=Kr70uvMKsyk&t=326s
 
 Full article : https://medium.com/sfu-cspmp/machine-learning-deployment-a-storm-in-a-teacup-10541ec3b0d6
