@@ -16,7 +16,13 @@ ngrok : https://ngrok.com/download
 
 How to install Jenkins : https://www.blazemeter.com/blog/how-to-install-jenkins-with-a-war-file
 
+Go to Jenkins folder : C:\Program Files (x86)\Jenkins
+
+Run below in cmd:
+
 java -jar jenkins.war (let this terminal be open)
+
+#### then go localhost:8080
 
 Install Java if you don’t have : https://www.java.com/download/ie_manual.jsp
 
