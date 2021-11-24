@@ -30,10 +30,14 @@ Once Jenkins installed :
 
 2- Select Git as Source code management, add git clone url in repository url.
 
+![Create Jobs](https://github.com/emlopsinfy/docker-jenkins-flask-tutorial/blob/f98a81322f808a5c08b12e2761d6fd36876e497a/Images/Add%20Repo%20URL.PNG)
+
 3-Go down to the build section, add execute shell, add below commands
 
 docker build --pull -t deploy .
 docker run -p 5000:5000 deploy
+
+![Create Jobs](https://github.com/emlopsinfy/docker-jenkins-flask-tutorial/blob/f98a81322f808a5c08b12e2761d6fd36876e497a/Images/Add%20Shell%20Commands%20on%20Build.PNG)
 
 save it
 
@@ -42,6 +46,8 @@ Now our job is created.
 ##### Build it
 
 Just click build now on the left pane.
+
+![Create Jobs](https://github.com/emlopsinfy/docker-jenkins-flask-tutorial/blob/f98a81322f808a5c08b12e2761d6fd36876e497a/Images/Build%20Now%20After%20Job%20Created.PNG)
 
 you must be inside dashboard -> docker-jenkins-flask
 
@@ -81,7 +87,13 @@ Installing cygwin
 
 If it is working, Whenever there is a push to Git, Jenkins creates a docker image.
 
+##### Architecture
 
+![Create Jobs](https://github.com/emlopsinfy/docker-jenkins-flask-tutorial/blob/f98a81322f808a5c08b12e2761d6fd36876e497a/Images/Architecture.PNG)
+
+##### Adding webhooks for CI
+
+![Create Jobs](https://github.com/emlopsinfy/docker-jenkins-flask-tutorial/blob/f98a81322f808a5c08b12e2761d6fd36876e497a/Images/Adding%20Webhooks%20on%20Github.PNG)
 
 
 
