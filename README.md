@@ -26,7 +26,7 @@ Once Jenkins installed :
 
 1- Create new job, name it docker-jenkins-flask, select freestyle project, click ok.
 
-![Create Jobs](Images/Create Jobs.PNG)
+![Create Jobs](https://github.com/emlopsinfy/docker-jenkins-flask-tutorial/blob/188708a6c58d805a92090489b1ccd4c696225aca/Images/Create%20Jobs.PNG)
 
 2- Select Git as Source code management, add git clone url in repository url.
 
